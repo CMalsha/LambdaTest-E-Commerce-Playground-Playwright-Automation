@@ -16,7 +16,6 @@ export class RegistrationPage {
     constructor(page: Page) {
 
         this.page = page;
-
         this.firstName = page.getByPlaceholder("First Name");
         this.lastName = page.getByPlaceholder("Last Name");
         this.email = page.getByPlaceholder("E-Mail");
@@ -35,7 +34,8 @@ export class RegistrationPage {
         telephone: string,
         password: string,
         confirmPassword: string
-    ) {
+    )
+     {
 
         await this.firstName.fill(firstName);
         await this.lastName.fill(lastName);

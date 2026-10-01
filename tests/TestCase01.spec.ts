@@ -22,7 +22,7 @@ test("Register, purchase product and proceed to checkout",async ({ page }) => {
         await registrationpage.register(
             "Maneesha",
             "Fernando",
-            "Manesha78714@gmail.com",
+            "Mane003@gmail.com",
             "0775612345",
             "Mane@123",
             "Mane@123"
