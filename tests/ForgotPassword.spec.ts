@@ -1,5 +1,5 @@
 import {test,expect} from "@playwright/test";
-import {LoginPage} from "../Pages/Login";
+import {LoginPage} from "../Pages/LoginPage";
 import { forgotPasswordPage } from "../Pages/forgotPasswordPage";
 
 
